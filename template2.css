@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@200;300&family=Roboto&display=swap');
+
+/* universal selector  */
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color:hsl(310, 27%, 96%);
+}
+
+/* flex concept implementation*/
+/* box-sizing implemented so that it takes original width */
+.container{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    box-sizing: border-box;
+}
+
+/* content class with same margin space */
+.content{
+    margin:20px 60px;
+
+}
+
+/* first flex item */
+.one{
+    width:350px;
+    height:auto;
+    margin-left:0px;
+}
+
+/* second flex item with equal line height */
+.two{
+    line-height:2.5;
+}
+
+/* list items alignment */
+ul{
+
+    padding-left: 0px;
+}
+
+
+
+/* third flex item */
+.three{
+    line-height: 2.5;
+}
+
+/* fourth flex item */
+.four{
+    line-height: 2.5;
+} 
+
+/* anchor tag with text decoration none */
+a{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+/* registration div section */
+.login{
+    width:100%;
+    height:auto;
+    padding:20px;
+    text-align: center;
+}
+
+/* signup button styling */
+button{
+    padding:10px 15px;
+    color:crimson;
+    border:2px solid red;
+}
+
+/* footer section  */
+.footer{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+
+}
+img{
+    padding:5px;
+}
